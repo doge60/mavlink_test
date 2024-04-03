@@ -48,8 +48,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj.d"
   "CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
   "CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj.d"
-  "CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.obj"
-  "CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.obj.d"
   "mavlink_test.elf"
   "mavlink_test.elf.manifest"
   "mavlink_test.elf.pdb"

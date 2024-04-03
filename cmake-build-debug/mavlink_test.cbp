@@ -32,8 +32,6 @@
 					<Add directory="D:/STM32/mavlink_test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="D:/STM32/mavlink_test/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="D:/STM32/mavlink_test/Drivers/CMSIS/Include"/>
-					<Add directory="D:/STM32/mavlink_test/User/Inc"/>
-					<Add directory="D:/STM32/mavlink_test/User/Inc/BSP_mavlink"/>
 					<Add directory="d:\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -63,8 +61,6 @@
 					<Add directory="D:/STM32/mavlink_test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="D:/STM32/mavlink_test/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="D:/STM32/mavlink_test/Drivers/CMSIS/Include"/>
-					<Add directory="D:/STM32/mavlink_test/User/Inc"/>
-					<Add directory="D:/STM32/mavlink_test/User/Inc/BSP_mavlink"/>
 					<Add directory="d:\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -359,51 +355,6 @@
 			<Option target="mavlink_test.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/mavlink_test/STM32F427IIHX_FLASH.ld">
-			<Option target="mavlink_test.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/mavlink_test/User/Inc/BSP_mavlink/checksum.h">
-			<Option target="mavlink_test.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/mavlink_test/User/Inc/BSP_mavlink/mavlink.h">
-			<Option target="mavlink_test.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/mavlink_test/User/Inc/BSP_mavlink/mavlink_conversions.h">
-			<Option target="mavlink_test.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/mavlink_test/User/Inc/BSP_mavlink/mavlink_get_info.h">
-			<Option target="mavlink_test.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/mavlink_test/User/Inc/BSP_mavlink/mavlink_helpers.h">
-			<Option target="mavlink_test.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/mavlink_test/User/Inc/BSP_mavlink/mavlink_msg_gyro.h">
-			<Option target="mavlink_test.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/mavlink_test/User/Inc/BSP_mavlink/mavlink_msg_speed.h">
-			<Option target="mavlink_test.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/mavlink_test/User/Inc/BSP_mavlink/mavlink_sha256.h">
-			<Option target="mavlink_test.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/mavlink_test/User/Inc/BSP_mavlink/mavlink_types.h">
-			<Option target="mavlink_test.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/mavlink_test/User/Inc/BSP_mavlink/protocol.h">
-			<Option target="mavlink_test.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/mavlink_test/User/Inc/BSP_mavlink/testsuite.h">
-			<Option target="mavlink_test.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/mavlink_test/User/Inc/BSP_mavlink/version.h">
-			<Option target="mavlink_test.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/mavlink_test/User/Inc/BSP_mavlink/wtr_mavlink.h">
-			<Option target="mavlink_test.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/mavlink_test/User/Inc/BSP_mavlink/wtr_mavlink_demo.h">
-			<Option target="mavlink_test.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/mavlink_test/User/Src/wtr_mavlink.c">
 			<Option target="mavlink_test.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/mavlink_test/CMakeLists.txt">

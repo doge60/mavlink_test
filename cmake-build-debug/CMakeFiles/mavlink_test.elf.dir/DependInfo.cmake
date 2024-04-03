@@ -26,8 +26,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/STM32/mavlink_test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
   "D:/STM32/mavlink_test/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "D:/STM32/mavlink_test/Drivers/CMSIS/Include"
-  "D:/STM32/mavlink_test/User/Inc"
-  "D:/STM32/mavlink_test/User/Inc/BSP_mavlink"
   )
 
 # The set of dependency files which are needed:
@@ -56,7 +54,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/STM32/mavlink_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" "CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" "gcc" "CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj.d"
   "D:/STM32/mavlink_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj.d"
   "D:/STM32/mavlink_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" "CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" "gcc" "CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj.d"
-  "D:/STM32/mavlink_test/User/Src/wtr_mavlink.c" "CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.obj" "gcc" "CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
