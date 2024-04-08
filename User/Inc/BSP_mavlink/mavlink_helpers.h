@@ -11,6 +11,7 @@
 #endif
 
 #include "mavlink_sha256.h"
+#include "mavlink.h"
 
 #ifdef MAVLINK_USE_CXX_NAMESPACE
 namespace mavlink {
