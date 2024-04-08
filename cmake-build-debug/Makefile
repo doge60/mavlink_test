@@ -712,6 +712,30 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mavlink_test.elf.dir\build.make CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
+User/Src/wtr_mavlink.obj: User/Src/wtr_mavlink.c.obj
+.PHONY : User/Src/wtr_mavlink.obj
+
+# target to build an object file
+User/Src/wtr_mavlink.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mavlink_test.elf.dir\build.make CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.obj
+.PHONY : User/Src/wtr_mavlink.c.obj
+
+User/Src/wtr_mavlink.i: User/Src/wtr_mavlink.c.i
+.PHONY : User/Src/wtr_mavlink.i
+
+# target to preprocess a source file
+User/Src/wtr_mavlink.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mavlink_test.elf.dir\build.make CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.i
+.PHONY : User/Src/wtr_mavlink.c.i
+
+User/Src/wtr_mavlink.s: User/Src/wtr_mavlink.c.s
+.PHONY : User/Src/wtr_mavlink.s
+
+# target to generate assembly for a file
+User/Src/wtr_mavlink.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mavlink_test.elf.dir\build.make CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.s
+.PHONY : User/Src/wtr_mavlink.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -794,6 +818,9 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s
+	@echo ... User/Src/wtr_mavlink.obj
+	@echo ... User/Src/wtr_mavlink.i
+	@echo ... User/Src/wtr_mavlink.s
 .PHONY : help
 
 

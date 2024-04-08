@@ -417,6 +417,20 @@ CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_u
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
 	"D:\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\mavlink_test\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\mavlink_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
 
+CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.obj: CMakeFiles/mavlink_test.elf.dir/flags.make
+CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.obj: D:/STM32/mavlink_test/User/Src/wtr_mavlink.c
+CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.obj: CMakeFiles/mavlink_test.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\mavlink_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.obj"
+	"D:\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.obj -MF CMakeFiles\mavlink_test.elf.dir\User\Src\wtr_mavlink.c.obj.d -o CMakeFiles\mavlink_test.elf.dir\User\Src\wtr_mavlink.c.obj -c D:\STM32\mavlink_test\User\Src\wtr_mavlink.c
+
+CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.i"
+	"D:\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\mavlink_test\User\Src\wtr_mavlink.c > CMakeFiles\mavlink_test.elf.dir\User\Src\wtr_mavlink.c.i
+
+CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.s"
+	"D:\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\mavlink_test\User\Src\wtr_mavlink.c -o CMakeFiles\mavlink_test.elf.dir\User\Src\wtr_mavlink.c.s
+
 # Object files for target mavlink_test.elf
 mavlink_test_elf_OBJECTS = \
 "CMakeFiles/mavlink_test.elf.dir/Core/Src/gpio.c.obj" \
@@ -443,7 +457,8 @@ mavlink_test_elf_OBJECTS = \
 "CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" \
 "CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
-"CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+"CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
+"CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.obj"
 
 # External object files for target mavlink_test.elf
 mavlink_test_elf_EXTERNAL_OBJECTS =
@@ -473,9 +488,10 @@ mavlink_test.elf: CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/S
 mavlink_test.elf: CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 mavlink_test.elf: CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 mavlink_test.elf: CMakeFiles/mavlink_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+mavlink_test.elf: CMakeFiles/mavlink_test.elf.dir/User/Src/wtr_mavlink.c.obj
 mavlink_test.elf: CMakeFiles/mavlink_test.elf.dir/build.make
 mavlink_test.elf: CMakeFiles/mavlink_test.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\STM32\mavlink_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C executable mavlink_test.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\STM32\mavlink_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking C executable mavlink_test.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\mavlink_test.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/STM32/mavlink_test/cmake-build-debug/mavlink_test.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/STM32/mavlink_test/cmake-build-debug/mavlink_test.bin"
